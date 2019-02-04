@@ -60,14 +60,14 @@ export default {
     font-family: 'Lobster', cursive;
   }
   .blog-card {
-    border: 5px solid #000;
+    border: 5px solid var(--black-color);
     padding: 15px;
     display: inline-block;
     margin: 5px;
     font-family: 'Lobster', cursive;
     min-height: 200px;
     width: 300px;
-    background-color: #fff;
+    background-color: var(--white-color);
     vertical-align: text-top;
     position: relative;
   }
@@ -84,12 +84,12 @@ export default {
     right: 10px;
     padding: 10px;
     background-color: var(--papaya-color);
-    color: #fff;
+    color: var(--white-color);
     transition: 0.5s;
   }
 
   .blog-card > a:hover {
-    background-color: #fff;
+    background-color: var(--white-color);
     border: 2px solid var(--papaya-color);
     color: var(--papaya-color);
   }

@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import navbar from './components/navbar.vue'
 
 export default {
@@ -31,6 +30,8 @@ export default {
   --blush-color: #EB6E80;
   --aqua-color: #008F95;
   --papaya-color: #E24E42;
+  --white-color: #ffffff;
+  --black-color: #000000; 
 }
 
 p {

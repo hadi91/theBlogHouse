@@ -53,7 +53,7 @@ export default {
   margin: 0 auto;
   padding: 30px;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--white-color);
   font-family: 'Lobster', cursive;
   border: 5px solid var(--custard-color);
 }
@@ -68,7 +68,7 @@ label {
 input {
   padding: 5px 0;
   font-size: 16px;
-  color: #000;
+  color: var(--black-color);
 }
 input, textarea {
   display: block;
@@ -79,7 +79,7 @@ input, textarea {
 
 input[type=text]:focus, textarea:focus {
   background-color: var(--blush-color);
-  color: #fff;
+  color: var(--white-color);
   outline: none;
 }
 form {
@@ -103,7 +103,7 @@ button {
 }
 
 button:hover {
-  color: #fff;
+  color: var(--white-color);
 }
 
 #preview {

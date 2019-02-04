@@ -27,7 +27,7 @@ export default {
 <style>
   .single-post {
     min-height: 500px;
-    background-color: #fff;
+    background-color: var(--white-color);
     max-width: 500px;
     margin: 0 auto;
     padding: 30px;

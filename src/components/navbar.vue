@@ -29,7 +29,7 @@ export default {
     font-family: 'Source Serif Pro', serif;
     padding: 20px 25px 30px 25px;
     background-color: var(--aqua-color);
-    background-image: linear-gradient(45deg, #fff 50%, rgba(255,255,255,0) 50%), linear-gradient(-45deg, #E9B000 50%, rgba(255,255,255,0) 50%);
+    background-image: linear-gradient(45deg, var(--white-color) 50%, rgba(255,255,255,0) 50%), linear-gradient(-45deg, #E9B000 50%, rgba(255,255,255,0) 50%);
     background-position: bottom center, bottom center;
     background-size: 25px 25px, 25px 25px;
     background-repeat: repeat-x;
@@ -37,14 +37,14 @@ export default {
   li {
     list-style-type: none;
     float: left;
-    color: #fff;
+    color: var(--white-color);
     margin: 5px;
   }
   li > a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
-    color: #fff;
+    color: var(--white-color);
   }
 
   li > a:hover {
@@ -53,14 +53,5 @@ export default {
 
   .router-link-active {
     color: var(--custard-color);
-  }
-
-  #menu {
-    text-decoration: none;
-    font-size: 24px;
-    display: inline-block;
-    color: #fff;
-    padding: 0 10px;
-    display: none;
   }
 </style>
