@@ -7,6 +7,8 @@ import VueResource from 'vue-resource'
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
+// Directives
+
 Vue.directive('colourful',{
   bind(el, binding){
     let colors = ["#E24E42", "#E98000", "#EB6E80", "#008F95"];
@@ -15,10 +17,19 @@ Vue.directive('colourful',{
   }
 });
 
+
+// Filters
+
+Vue.filter('wordsDisplay', function(value){
+  let slicedWords = value.slice(0, 150);
+  return slicedWords + " ...";
+});
+
 Vue.config.productionTip = false
 
 const router = new VueRouter({
-  routes: Routes
+  routes: Routes,
+  mode: 'history'
 });
 
 new Vue({
